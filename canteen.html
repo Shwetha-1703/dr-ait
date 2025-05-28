@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+</head>
+<body> 
+    <h3>WELCOME🙏</h3>
+    <h3>MENU</h3>
+    <h2><label for="">veg biryani 🥗: Rs.150</label>
+     <input type="number" name="" id="vb" ></h2>
+     <h2><label for="">chicken biryani🥩: Rs.199</label>
+     <input type="number" name="" id="cb" ></h2>
+     <h2><label for="">mutton biryani🍗: Rs.299</label>
+     <input type="number" name="" id="mb" ></h2>
+     <h2><label for="">prawns biryani🥗: Rs.399</label>
+     <input type="number" name="" id="pb" ></h2>
+     <button onclick="bill()">submit</button>  
+     <p id="res">THE TOTAL BILL IS</p> 
+
+     <script>
+        function bill(){
+            var vb = document.getElementById("vb").value;
+            var cb = document.getElementById("cb").value;
+            var mb = document.getElementById("mb").value;
+            var pb = document.getElementById("pb").value;
+            var totalbill = (vb*150)+(cb*199)+(mb*299)+(pb*399);
+            // alert(totalbill);
+            res.innerHTML=" TOTAL BILL IS "+ totalbill;
+        
+            
+            
+            
+        }
+     </script>
+     
+     
+</body>
+</html>

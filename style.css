@@ -1,0 +1,53 @@
+ #div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+} 
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+    border: 2px dotted black;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    padding: 5px;
+    margin: 5px;
+    border: 2px dashed black;
+    border-radius: 50%;
+    
+} 
+#div1:hover{
+    background-color: blueviolet ;
+    box-shadow:5px 5px 5px  yellowgreen;
+    border: 10px double pink;
+}
+#div2:hover{
+    background-color: color-mix(in srgb, pink 60%, black 30%);
+} 
+body{
+     text-align: left;
+     background-image: url(ben.jpg); 
+     background-position: 5%;
+     background-attachment: fixed;
+     backdrop-filter: blur(10px);  
+
+
+}  
+#main{ 
+    justify-items: center;
+    background-color: black;
+    height: 375px;
+    width: 200px;
+    padding: 5px;
+}
